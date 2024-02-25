@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is social media website where user can post photos and comment on anonymous photo with anonymous user",
+  "main": "app_runner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app_runner.js",
+    "start-server": "node app_runner.js"
+  },
+  "author": "Rahul Rajkumar Gupta © Rahul Rajkumar Gupta - February 22, 2024",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "sequelize": "^6.37.1"
+  }
+}
